@@ -6,9 +6,11 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Component/DunInteractionComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "Components/CapsuleComponent.h"
 #include "Logging/StructuredLog.h"
+
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
 
@@ -42,6 +44,9 @@ ADunCharacter::ADunCharacter()
 	GetCharacterMovement()->MinAnalogWalkSpeed = 20.f;
 	GetCharacterMovement()->BrakingDecelerationWalking = 2000.f;
 
+	InteractionComp = CreateDefaultSubobject<UDunInteractionComponent>("InteractionComp");
+
+	
 }
 
 void ADunCharacter::BeginPlay()
@@ -122,6 +127,7 @@ void ADunCharacter::SprintStop()
 
 void ADunCharacter::PrimaryInteract()
 {
+	InteractionComp->PrimaryInteract();
 }
 
 

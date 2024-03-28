@@ -11,11 +11,11 @@
 class UInputMappingContext;
 class UCameraComponent;
 class USpringArmComponent;
-class USInteractionComponent;
+class UDunInteractionComponent;
 class UAnimMontage;
-class USAttributeComponent;
+class UDunAttributeComponent;
 class UParticleSystem;
-class USActionComponent;
+class UDunActionComponent;
 
 
 UCLASS()
@@ -33,6 +33,9 @@ protected:
 
 	UPROPERTY(VisibleAnywhere)
 	TObjectPtr<UCameraComponent> CameraComp;
+
+	UPROPERTY(VisibleAnywhere)
+	TObjectPtr<UDunInteractionComponent> InteractionComp;
 	
 	virtual void BeginPlay() override;
 
