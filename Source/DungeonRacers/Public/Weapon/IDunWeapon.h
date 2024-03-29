@@ -20,6 +20,10 @@ class DUNGEONRACERS_API IIDunWeapon
 {
 	GENERATED_BODY()
 
-	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
+	virtual class ACRifle* GetRifle() = 0;
+	virtual void GetLocationAndDirection(FVector& OutStart, FVector& OutEnd, FVector& OutDirection) = 0;
+	//virtual void OnFocus() = 0;
+	//virtual void OffFocus() = 0;
+	
 };

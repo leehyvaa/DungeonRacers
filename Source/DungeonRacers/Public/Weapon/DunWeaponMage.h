@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "Weapon/DunWeaponBase.h"
-#include "DunMageWeapon.generated.h"
+#include "DunWeaponMage.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class DUNGEONRACERS_API ADunMageWeapon : public ADunWeaponBase
+class DUNGEONRACERS_API ADunWeaponMage : public ADunWeaponBase
 {
 	GENERATED_BODY()
 	
