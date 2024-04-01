@@ -13,5 +13,9 @@ UCLASS()
 class DUNGEONRACERS_API ADunWeaponMage : public ADunWeaponBase
 {
 	GENERATED_BODY()
-	
+
+
+public:
+	static ADunWeaponMage* Spawn(class UWorld* InWorld, class ACharacter* InOwner);
+
 };

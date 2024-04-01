@@ -44,10 +44,9 @@ public:
 	class UMaterialInstanceConstant* DecalMaterial;
 
 public:
-	static ADunWeaponBase* Spawn(class UWorld* InWorld, class ACharacter* InOwner);
-
-	//FORCEINLINE bool GetEquipped() { return bEquipped; }
-	//FORCEINLINE bool GetEquippping() { return bEquipping; }
+	
+	FORCEINLINE bool GetEquipped() { return bEquipped; }
+	FORCEINLINE bool GetEquippping() { return bEquipping; }
 	//FORCEINLINE bool GetAiming() { return bAiming; }
 
 	// void Equip();
@@ -67,8 +66,8 @@ public:
 
 private:
 	class ACharacter* OwnerCharacter;
-	//bool bEquipped;
-	//bool bEquipping;
+	uint8 bEquipped : 1;
+	uint8 bEquipping : 1;
+	uint8 bFiring : 1;
 	//bool bAiming;
-	bool bFiring;
 };

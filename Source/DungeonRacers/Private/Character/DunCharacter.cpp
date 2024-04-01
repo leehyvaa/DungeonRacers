@@ -13,6 +13,9 @@
 
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
+#include "Kismet/KismetMathLibrary.h"
+#include "Weapon/DunWeaponMage.h"
+#include "Weapon/DunWeaponWarrior.h"
 
 ADunCharacter::ADunCharacter()
 {
@@ -52,7 +55,8 @@ ADunCharacter::ADunCharacter()
 void ADunCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	Weapon = ADunWeaponMage::Spawn(GetWorld(), this);
 }
 
 void ADunCharacter::Tick(float DeltaTime)
@@ -135,3 +139,13 @@ void ADunCharacter::CursorTrace()
 {
 }
 
+void ADunCharacter::GetLocationAndDirection(FVector& OutStart, FVector& OutEnd, FVector& OutDirection)
+{
+	OutDirection = CameraComp->GetForwardVector();
+	FTransform transform = CameraComp->GetComponentToWorld();
+	FVector cameraLocation = transform.GetLocation();
+	OutStart = cameraLocation + OutDirection;
+	FVector conDirection = UKismetMathLibrary::RandomUnitVectorInEllipticalConeInDegrees(OutDirection, 0.2f, 0.3f);
+	conDirection *= 3000.0f;
+	OutEnd = cameraLocation + conDirection;
+}

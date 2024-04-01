@@ -1,5 +1,7 @@
 // Copyright KNJ
 
+
+#include "Weapon/DunWeaponBase.h"
 //#include "Global.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "GameFramework/Character.h"
@@ -8,7 +10,7 @@
 #include "particles/ParticleSystem.h"
 #include "Materials/MaterialInstanceConstant.h"
 
-#include "Weapon/DunWeaponBase.h"
+
 
 #include "Actor/DunProjectileBase.h"
 #include "Weapon/IDunWeapon.h"
@@ -92,13 +94,8 @@ void ADunWeaponBase::Tick(float DeltaTime)
 
 }
 
-// ADunWeaponBase* ADunWeaponBase::Spawn(UWorld* InWorld, ACharacter* InOwner)
-// {
-// 	FActorSpawnParameters params;
-// 	params.Owner = InOwner;
-//
-// 	return InWorld->SpawnActor<ADunWeaponBase>(params);
-// }
+
+
 //
 // void ADunWeaponBase::Begin_Fire()
 // {

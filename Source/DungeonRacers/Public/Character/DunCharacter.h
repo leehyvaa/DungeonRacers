@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "InputAction.h"
 #include "Character/DunCharacterBase.h"
+#include "Weapon/IDunWeapon.h"
 #include "DunCharacter.generated.h"
 
 class UInputMappingContext;
@@ -17,14 +18,12 @@ class UDunAttributeComponent;
 class UParticleSystem;
 class UDunActionComponent;
 
-
 UCLASS()
-class DUNGEONRACERS_API ADunCharacter : public ADunCharacterBase
+class DUNGEONRACERS_API ADunCharacter : public ADunCharacterBase, public IIDunWeapon
 {
 	GENERATED_BODY()
 
 public:
-	// Sets default values for this character's properties
 	ADunCharacter();
 
 protected:
@@ -36,14 +35,14 @@ protected:
 
 	UPROPERTY(VisibleAnywhere)
 	TObjectPtr<UDunInteractionComponent> InteractionComp;
+
+	UPROPERTY(VisibleAnywhere)
+	TObjectPtr<ADunWeaponBase> Weapon;
 	
 	virtual void BeginPlay() override;
 
 public:	
-	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
-	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 private:
@@ -73,7 +72,12 @@ private:
 	void SprintStart();
 	void SprintStop();
 	void PrimaryInteract();
-
 	
 	void CursorTrace();
+
+	
+public:
+	virtual class ADunWeaponBase* GetWeapon() override { return Weapon; }
+	virtual void GetLocationAndDirection(FVector& OutStart, FVector& OutEnd, FVector& OutDirection) override;
+	
 };

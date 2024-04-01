@@ -21,7 +21,7 @@ class DUNGEONRACERS_API IIDunWeapon
 	GENERATED_BODY()
 
 public:
-	virtual class ACRifle* GetRifle() = 0;
+	virtual class ADunWeaponBase* GetWeapon() = 0;
 	virtual void GetLocationAndDirection(FVector& OutStart, FVector& OutEnd, FVector& OutDirection) = 0;
 	//virtual void OnFocus() = 0;
 	//virtual void OffFocus() = 0;
