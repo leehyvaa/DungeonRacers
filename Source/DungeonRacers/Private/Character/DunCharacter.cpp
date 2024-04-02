@@ -2,18 +2,16 @@
 
 
 #include "Character/DunCharacter.h"
-
+#include "Global.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Component/DunInteractionComponent.h"
-#include "Kismet/GameplayStatics.h"
 #include "Components/CapsuleComponent.h"
 #include "Logging/StructuredLog.h"
 
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
-#include "Kismet/KismetMathLibrary.h"
 #include "Weapon/DunWeaponMage.h"
 #include "Weapon/DunWeaponWarrior.h"
 
@@ -49,7 +47,10 @@ ADunCharacter::ADunCharacter()
 
 	InteractionComp = CreateDefaultSubobject<UDunInteractionComponent>("InteractionComp");
 
-	
+	TSubclassOf<UAnimInstance> animInstance;
+	DunHelpers::GetClass<UAnimInstance>(&animInstance, "AnimBlueprint'/Game/Blueprints/Character/ABP_PlayerCharactor.ABP_PlayerCharactor_C'");
+	GetMesh()->SetAnimInstanceClass(animInstance);
+
 }
 
 void ADunCharacter::BeginPlay()

@@ -20,7 +20,7 @@
 ADunWeaponBase::ADunWeaponBase()
 {
 	PrimaryActorTick.bCanEverTick = true;
-
+	bEquipped = false;
 	// DunHelpers::CreateComponent<USkeletalMeshComponent>(this, &Mesh, "Mesh");
 	// USkeletalMesh* mesh;
 	// CHelpers::GetAsset<USkeletalMesh>(&mesh, "SkeletalMesh'/Game/Weapons/Meshes/AR4/SK_AR4.SK_AR4'");

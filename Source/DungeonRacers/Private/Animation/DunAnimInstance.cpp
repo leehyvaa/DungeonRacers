@@ -41,11 +41,13 @@ void UDunAnimInstance::NativeUpdateAnimation(float DeltaSeconds)
 	}
 
 	
-
+	Owner = Cast<ADunCharacter>(GetOwningActor());
+	CheckNull(Owner);
 	IIDunWeapon* weapon = Cast<IIDunWeapon>(Owner);
 	if (!!weapon)
 	{
-		bEquipped = weapon->GetWeapon()->GetEquipped();
+		if(!!weapon->GetWeapon())
+			bEquipped = weapon->GetWeapon()->GetEquipped();
 	}
 
 }
