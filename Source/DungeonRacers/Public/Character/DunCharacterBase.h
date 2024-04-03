@@ -18,7 +18,8 @@ public:
 	ADunCharacterBase();
 
 protected:
-
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	TObjectPtr<USkeletalMeshComponent> WeaponMesh;
 public:	
 	//virtual void Tick(float DeltaTime) override;
 

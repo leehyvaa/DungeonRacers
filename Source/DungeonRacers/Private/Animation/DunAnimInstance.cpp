@@ -14,6 +14,7 @@ UDunAnimInstance::UDunAnimInstance()
 {
 	MovingThreshould = 3.0f;
 	JumpingThreshould = 100.0f;
+	bEquipped = false;
 }
 
 void UDunAnimInstance::NativeInitializeAnimation()

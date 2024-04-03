@@ -48,7 +48,7 @@ ADunCharacter::ADunCharacter()
 	InteractionComp = CreateDefaultSubobject<UDunInteractionComponent>("InteractionComp");
 
 	TSubclassOf<UAnimInstance> animInstance;
-	DunHelpers::GetClass<UAnimInstance>(&animInstance, "AnimBlueprint'/Game/Blueprints/Character/ABP_PlayerCharactor.ABP_PlayerCharactor_C'");
+	DunHelpers::GetClass<UAnimInstance>(&animInstance, "AnimBlueprint'/Game/Blueprints/Character/ABP_PlayerCharacter.ABP_PlayerCharacter_C'");
 	GetMesh()->SetAnimInstanceClass(animInstance);
 
 }
@@ -57,7 +57,7 @@ void ADunCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
-	Weapon = ADunWeaponMage::Spawn(GetWorld(), this);
+	PlayerWeapon = ADunWeaponMage::Spawn(GetWorld(), this);
 }
 
 void ADunCharacter::Tick(float DeltaTime)

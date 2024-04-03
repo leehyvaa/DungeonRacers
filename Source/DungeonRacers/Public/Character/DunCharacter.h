@@ -37,7 +37,7 @@ protected:
 	TObjectPtr<UDunInteractionComponent> InteractionComp;
 
 	UPROPERTY(VisibleAnywhere)
-	TObjectPtr<ADunWeaponBase> Weapon;
+	TObjectPtr<ADunWeaponBase> PlayerWeapon;
 	
 	virtual void BeginPlay() override;
 
@@ -77,7 +77,7 @@ private:
 
 	
 public:
-	virtual class ADunWeaponBase* GetWeapon() override { return Weapon; }
+	virtual class ADunWeaponBase* GetWeapon() override { return PlayerWeapon; }
 	virtual void GetLocationAndDirection(FVector& OutStart, FVector& OutEnd, FVector& OutDirection) override;
 	
 };

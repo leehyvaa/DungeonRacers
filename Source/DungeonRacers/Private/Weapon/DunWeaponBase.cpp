@@ -2,7 +2,7 @@
 
 
 #include "Weapon/DunWeaponBase.h"
-//#include "Global.h"
+#include "Global.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "GameFramework/Character.h"
 #include "Animation/AnimMontage.h"
@@ -20,7 +20,9 @@
 ADunWeaponBase::ADunWeaponBase()
 {
 	PrimaryActorTick.bCanEverTick = true;
-	bEquipped = false;
+	
+	//OwnerCharacter = Cast<ACharacter>(GetOwner());
+	
 	// DunHelpers::CreateComponent<USkeletalMeshComponent>(this, &Mesh, "Mesh");
 	// USkeletalMesh* mesh;
 	// CHelpers::GetAsset<USkeletalMesh>(&mesh, "SkeletalMesh'/Game/Weapons/Meshes/AR4/SK_AR4.SK_AR4'");
