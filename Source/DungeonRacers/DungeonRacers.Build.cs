@@ -8,6 +8,8 @@ public class DungeonRacers : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
+		PublicIncludePaths.AddRange(new string[] {"DungeonRacers"});
+		
 		PublicDependencyModuleNames.AddRange(new string[]
 		{
 			"Core",

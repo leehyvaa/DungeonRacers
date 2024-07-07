@@ -8,19 +8,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c60f18a4-7a01-4312-b52b-5a26f61e0f2a" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DungeonRacers.dir/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DungeonRacers.dir/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DungeonRacers.dir/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DungeonRacers.dir/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/Characters/GhostLady_S1/Meshes/Characters/Combines/SK_AssassinA_Skeleton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Characters/GhostLady_S1/Meshes/Characters/Combines/SK_AssassinA_Skeleton.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Character/ABP_PlayerCharacter2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Character/ABP_PlayerCharactor.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Private/Animation/DunAnimInstance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DungeonRacers/Private/Animation/DunAnimInstance.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Private/Character/DunCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DungeonRacers/Private/Character/DunCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Private/Character/DunCharacterBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DungeonRacers/Private/Character/DunCharacterBase.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Private/Weapon/DunWeaponBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DungeonRacers/Private/Weapon/DunWeaponBase.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Public/Character/DunCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DungeonRacers/Public/Character/DunCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Public/Character/DunCharacterBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DungeonRacers/Public/Character/DunCharacterBase.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Public/Utilities/DunHelpers.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DungeonRacers/Public/Utilities/DunHelpers.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DungeonRacers.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DungeonRacers.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/DungeonRacers.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DungeonRacers/DungeonRacers.Build.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Private/Actor/DunProjectileBase.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Private/Actor/Interaction/DunItemChest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Private/Animation/DunAnimInstance.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Private/Character/DunCharacter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Private/Character/DunCharacterBase.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Private/Component/DunInteractionComponent.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Private/Game/DunGameModeBase.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Private/Interface/IDunInteractable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Private/Player/DunPlayerController.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Private/Player/DunPlayerState.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Private/Weapon/DunWeaponBase.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Private/Weapon/DunWeaponMage.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Private/Weapon/DunWeaponWarrior.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Private/Weapon/IDunWeapon.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Public/Actor/DunProjectileBase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Public/Actor/Interaction/DunItemChest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Public/Animation/DunAnimInstance.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Public/Character/DunCharacter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Public/Character/DunCharacterBase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Public/Component/DunInteractionComponent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Public/Game/DunGameModeBase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Public/Global.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Public/Interface/IDunInteractable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Public/Player/DunPlayerController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Public/Player/DunPlayerState.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Public/Utilities/Defines.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Public/Utilities/DunHelpers.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Public/Utilities/DunLog.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Public/Utilities/DunLog.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Public/Weapon/DunWeaponBase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Public/Weapon/DunWeaponMage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Public/Weapon/DunWeaponWarrior.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DungeonRacers/Public/Weapon/IDunWeapon.h" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,45 +189,45 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2eZoq7RXJRsYAiOBAWgcfIPnCkN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Uproject.DungeonRacers.executor": "Run",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Uproject.DungeonRacers.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\cwhml\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\cwhml\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\cwhml\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\k05n1\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\k05n1\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\k05n1\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="DungeonRacers" type="Uproject" factoryName="rider.uproject">
       <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/DungeonRacers.uproject" />
       <configuration_2>
         <option name="CONFIGURATION" value="DebugGame Editor" />
         <option name="PLATFORM" value="Win64" />
-        <option name="EXECUTABLE_PATH" value="C:\UE\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Win64-DebugGame.exe" />
-        <option name="WORKING_DIRECTORY" value="C:\UE\UE_5.2" />
-        <option name="MANDATORY_PROGRAM_PARAMETERS" value=" &quot;C:\Users\cwhml\Desktop\UnrealProject\DungeonRacers\DungeonRacers.uproject&quot;" />
+        <option name="EXECUTABLE_PATH" value="C:\ureal521\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Win64-DebugGame.exe" />
+        <option name="WORKING_DIRECTORY" value="C:\ureal521\UE_5.2" />
+        <option name="MANDATORY_PROGRAM_PARAMETERS" value=" &quot;D:\Unreal Projects\DungeonRacers\DungeonRacers.uproject&quot;" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -214,8 +236,8 @@
       <configuration_3>
         <option name="CONFIGURATION" value="DebugGame" />
         <option name="PLATFORM" value="Win64" />
-        <option name="EXECUTABLE_PATH" value="C:\Users\cwhml\Desktop\UnrealProject\DungeonRacers\Binaries\Win64\DungeonRacers-Win64-DebugGame.exe" />
-        <option name="WORKING_DIRECTORY" value="C:\UE\UE_5.2" />
+        <option name="EXECUTABLE_PATH" value="D:\Unreal Projects\DungeonRacers\Binaries\Win64\DungeonRacers-Win64-DebugGame.exe" />
+        <option name="WORKING_DIRECTORY" value="C:\ureal521\UE_5.2" />
         <option name="MANDATORY_PROGRAM_PARAMETERS" value="" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
         <option name="PASS_PARENT_ENVS" value="1" />
@@ -225,9 +247,9 @@
       <configuration_4>
         <option name="CONFIGURATION" value="Development Editor" />
         <option name="PLATFORM" value="Win64" />
-        <option name="EXECUTABLE_PATH" value="C:\UE\UE_5.2\Engine\Binaries\Win64\UnrealEditor.exe" />
-        <option name="WORKING_DIRECTORY" value="C:\UE\UE_5.2" />
-        <option name="MANDATORY_PROGRAM_PARAMETERS" value=" &quot;C:\Users\cwhml\Desktop\UnrealProject\DungeonRacers\DungeonRacers.uproject&quot;" />
+        <option name="EXECUTABLE_PATH" value="C:\ureal521\UE_5.2\Engine\Binaries\Win64\UnrealEditor.exe" />
+        <option name="WORKING_DIRECTORY" value="C:\ureal521\UE_5.2" />
+        <option name="MANDATORY_PROGRAM_PARAMETERS" value=" &quot;D:\Unreal Projects\DungeonRacers\DungeonRacers.uproject&quot;" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -236,8 +258,8 @@
       <configuration_5>
         <option name="CONFIGURATION" value="Development" />
         <option name="PLATFORM" value="Win64" />
-        <option name="EXECUTABLE_PATH" value="C:\Users\cwhml\Desktop\UnrealProject\DungeonRacers\Binaries\Win64\DungeonRacers.exe" />
-        <option name="WORKING_DIRECTORY" value="C:\UE\UE_5.2" />
+        <option name="EXECUTABLE_PATH" value="D:\Unreal Projects\DungeonRacers\Binaries\Win64\DungeonRacers.exe" />
+        <option name="WORKING_DIRECTORY" value="C:\ureal521\UE_5.2" />
         <option name="MANDATORY_PROGRAM_PARAMETERS" value="" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
         <option name="PASS_PARENT_ENVS" value="1" />
@@ -247,8 +269,8 @@
       <configuration_6>
         <option name="CONFIGURATION" value="Shipping" />
         <option name="PLATFORM" value="Win64" />
-        <option name="EXECUTABLE_PATH" value="C:\Users\cwhml\Desktop\UnrealProject\DungeonRacers\Binaries\Win64\DungeonRacers-Win64-Shipping.exe" />
-        <option name="WORKING_DIRECTORY" value="C:\UE\UE_5.2" />
+        <option name="EXECUTABLE_PATH" value="D:\Unreal Projects\DungeonRacers\Binaries\Win64\DungeonRacers-Win64-Shipping.exe" />
+        <option name="WORKING_DIRECTORY" value="C:\ureal521\UE_5.2" />
         <option name="MANDATORY_PROGRAM_PARAMETERS" value="" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
         <option name="PASS_PARENT_ENVS" value="1" />
@@ -269,6 +291,8 @@
       <option name="presentableId" value="Default" />
       <updated>1712121649484</updated>
       <workItem from="1712121652940" duration="9809000" />
+      <workItem from="1719344619685" duration="2436000" />
+      <workItem from="1720313359689" duration="136000" />
     </task>
     <servers />
   </component>
@@ -277,5 +301,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Source/DungeonRacers/Animation/DunAnimInstance.cpp</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
